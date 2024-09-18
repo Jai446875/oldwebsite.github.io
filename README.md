@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neopets Classic Inspired Layout with Two Sidebars</title>
+    <style>
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        /* Header */
+  .header {
+            background-image: url('https://cdn2.steamgriddb.com/hero/d4cea77ef6d18b786930a5159dc2e317.png');
+            background-size: cover;
+            background-position: center;
+            padding: 15px;
+            text-align: center;
+            color: black; 
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+            height: 200px; 
+        }
+
+        /* Main Content Section */
+  .main-content {
+            display: flex;
+            padding: 20px;
+            margin-top: 0; 
+        }
+
+        /* Left Sidebar */
+  .sidebar-left {
+            width: 275px;
+            padding: 10px;
+            background-color: #FFCE00;
+            border-right: 1px solid #ccc;
+            color: black; 
+            font-family: "Comic Sans MS", cursive, sans-serif; 
+        }
+
+        /* Right Sidebar */
+  .sidebar-right {
+            width: 275px; 
+            padding: 10px;
+            background-color: #DDDD77;
+            border-left: 1px solid #ccc;
+            color: black; 
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+        /* Content Section */
+  .content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            /* Removed margin */
+        }
+
+        /* Footer Styling */
+   .footer {
+            background-color: #FFFF66;
+            color: black; 
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+ 
+  h1, h2 {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+  button {
+            background-color: #0066cc;
+            border: none;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+ button:hover {
+            background-color: #004d99;
+        }
+
+      
+  .sidebar a {
+            display: block;
+            padding: 8px 0;
+            text-decoration: none;
+            color: black; 
+        }
+
+  .sidebar a:hover {
+            color: #0066cc;
+        }
+
+        /* Main Content Styling */
+  .main-content-line {
+            border-bottom: 2px solid #003366; 
+            margin-bottom: 20px;
+        }
+
+        /* Two Columns Layout */
+  .columns {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Left Column */
+  .left-column {
+            width: 48%;
+            background-color: #FFFFEE;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+  .left-column img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+ .left-column p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: black; 
+        }
+
+        /* Right Column */
+  .right-column {
+            width: 48%;
+        }
+
+  .right-column h3 {
+            margin-top: 0;
+            color: black; 
+        }
+
+  .right-column p {
+            font-size: 14px;
+            color: black; 
+        }
+
+        /* New header for Neopets Classic */
+  .content-header {
+            font-size: 24px;
+            color: black; 
+            margin-bottom: 10px;
+        }
+
+  .content-description {
+            font-size: 16px;
+            color: black; 
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+  <div class="header">
+        <h1>Neopets Classic Inspired Layout</h1>
+    </div>
+
+    <!-- Two Sidebars -->
+  <div class="main-content">
+        <!-- Left Sidebar Section -->
+        <div class="sidebar-left sidebar">
+            <h2>Explore</h2>
+            <a href="#explore">Explore</a>
+            <a href="#games">Games</a>
+            <a href="#neomail">Neomail</a>
+            <a href="#shop">Shop</a>
+            <a href="#boards">Boards</a>
+            <a href="#news">News</a>
+            <a href="#stuff">Stuff</a>
+            <a href="#help">Help</a>
+            <a href="#login">Login</a>
+            <a href="#logout">Logout</a>
+        </div>
+
+        <!-- Content Section -->
+  <div class="content">
+
+  <h2 class="content-header">Neopets Classic</h2>
+            <p class="content-description">Welcome to Neopets Classic, a place where you can explore, play games, and take care of your virtual pets! Join our community and enjoy the nostalgic fun that comes with every adventure.</p>
+
+
+  <div class="main-content-line"></div>
+
+
+  <div class="columns">
+                <!-- Left Column -->
+                <div class="left-column">
+                    <h2>News Flash! Summer event!</h2>
+                    <img src="https://neopetsclassic.com/images/events/funfair/ticket_booth.gif" alt="Summer Event">
+                    <p>Meridell Summer Faire! The faire is in full swing, and there's something for everyone to enjoy. Head on over to the Ticket Booth to grab your tickets! These precious tickets are your golden pass to all the fun and excitement waiting for you!</p>
+                    <p><strong>Fire vs. Ice Event!</strong> Summer is in full swing in Neopia and a heatwave appears to have set in! What better to remedy the hot weather than everyone's favourite treat, ice cream! Nothing but the best will do, of course, but where in Neopia does the best ice cream come from exactly? Pay a visit to Queen Amira to join the competition!</p>
+                    <p><strong>Battledome - Now in Development!</strong> We can now excitedly share that we have been working on THE BATTLEDOME for the last little while! It's a large project so it will take time to release, but make sure you're keeping up on your pet's training in the meantime!</p>
+                </div>
+
+                <!-- Right Column -->
+  <div class="right-column">
+                    <h3>Great Games</h3>
+                    <p><strong>Snowmuncher:</strong> Guide Dieter the Polarchuck to the bottom of each level!</p>
+                    <p><strong>Rink Runner:</strong> Skate on the rink and collect as many notes as possible.</p>
+                    <p><strong>Faerie Bubbles:</strong> Faerie bubbles pop if you get three of the same type.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar Section -->
+<div class="sidebar-right sidebar">
+            <h2>Latest News!</h2>
+            <p>18th day of gathering, y5</p>
+            <p>1:24:55 am NST</p>
+            <p>Ice Cream! - Techno Day! -</p>
+            <p>Petpet Protection League: Week 129 -</p>
+            <p>Escape from Meridell - Castle Spotlight Winner! -</p>
+            <p>Caption Contest Voting - Open now</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+ <div class="footer">
+        <p>Neopets Classic Inspired Layout.</p>
+    </div>
+
+</body>
+</html>
+
