@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neopets Classic Inspired Layout with Two Sidebars</title>
+    <title>Neopets Classic Inspired Layout</title>
     <style>
         /* Body Styling */
         body {
@@ -169,7 +169,7 @@
 
     <!-- Header Section -->
   <div class="header">
-        <h1>Neopets Classic Inspired Layout</h1>
+        <h1>Neopets Classic</h1>
     </div>
 
     <!-- Two Sidebars -->
@@ -233,7 +233,7 @@
 
     <!-- Footer Section -->
  <div class="footer">
-        <p>Neopets Classic Inspired Layout.</p>
+        <p>Neopets Classic Inspired.</p>
     </div>
 
 </body>
